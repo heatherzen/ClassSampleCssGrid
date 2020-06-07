@@ -1,0 +1,57 @@
+/* This makes it a grid */
+
+.grid-container {
+    display: grid;
+    /*display: inline-grid
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 80px 200px;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content: start;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+    */
+  }
+
+.grid-item {
+    background-color: orange;
+    min-width: 30px;
+}
+
+/*
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .item1 {
+    grid-column: 1 / 5;
+  }
+
+  .item1 {
+    grid-column: 1 / span 3;
+  }
+
+  .item1 {
+    grid-area: 1 / 2 / 5 / 6;
+  }
+
+  .item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+}
+
+*/
+
+/*Source for 1f and repeat https://css-tricks.com/almanac/properties/g/grid-rows-columns/ */
